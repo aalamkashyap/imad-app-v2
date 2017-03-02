@@ -23,4 +23,5 @@ request.onreadystatechange = function () {
 //Make the request
 request.open('GET','http://aalamkashyap.imad.hasura-app.io/counter',true);
 request.send(null);
+
 };
