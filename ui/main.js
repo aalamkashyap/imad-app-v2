@@ -17,7 +17,7 @@ request.onreadystatechange = function () {
             span.innerHTML = counter.toString();
       }
   }
-  //Not sone yet
+  //Not done yet
 };
 
 //Make the request
