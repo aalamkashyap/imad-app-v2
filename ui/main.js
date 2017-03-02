@@ -13,7 +13,8 @@ request.onreadystatechange = function () {
       if(request.status === 200) {
           //Capture a list of names and render it as a list
   
-  var names = ['name1', 'name2', 'name3', 'name4'];
+  var names = request.responseText;
+  names = JSON.parse(names); // convert into array
   var list = '';
   for(var i=0; i<names.length; i++)
   {
